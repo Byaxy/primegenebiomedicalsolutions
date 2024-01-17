@@ -2,4 +2,4 @@
 
 #### Your trusted supplier for biomedical equipments, reagents, and solutions
 
-![Prime Gene Biomedical solutions](/assets/primegenebiomedicalsolutions.png)
+![Prime Gene Biomedical solutions](public/assets/primegenebiomedicalsolutions.png)
