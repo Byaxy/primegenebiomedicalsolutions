@@ -11,6 +11,9 @@ import {
 } from "react-router-dom";
 import { ScrollContextProvider } from "./lib/context/ScrollContext";
 
+// sidebar Data
+import * as sidebarData from "./lib/data/sidebarData";
+
 // layouts
 const RootLayout = React.lazy(() => import("./Layout"));
 const SolutionsLayout = React.lazy(() => import("./layouts/SolutionsLayout"));
@@ -171,7 +174,12 @@ const router = createBrowserRouter(
       <Route path="about-us" element={<AboutUs />} />
       <Route path="products-and-solutions" element={<DefaultLayout />}>
         <Route index element={<ProductsAndSolutions />} />
-        <Route path="laboratory-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="laboratory-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.laboratorySidebarData} />
+          }
+        >
           <Route index element={<LaboratorySolutions />} />
           <Route path="chemistry-solutions" element={<DefaultLayout />}>
             <Route index element={<ChemistrySolutions />} />
@@ -470,7 +478,12 @@ const router = createBrowserRouter(
             element={<LaboratoryInfrastructure />}
           />
         </Route>
-        <Route path="medical-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="medical-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.medicalSidebarData} />
+          }
+        >
           <Route index element={<MedicalSolutions />} />
           <Route path="critical-care" element={<DefaultLayout />}>
             <Route index element={<CriticalCare />} />
@@ -497,7 +510,12 @@ const router = createBrowserRouter(
             <Route path=":id" element={<ProductDetailsPage />} />
           </Route>
         </Route>
-        <Route path="imaging-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="imaging-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.imagingSidebarData} />
+          }
+        >
           <Route index element={<ImagingSolutions />} />
           <Route path="radiology" element={<DefaultLayout />}>
             <Route index element={<Radiology />} />
@@ -527,7 +545,12 @@ const router = createBrowserRouter(
             <Route path=":id" element={<ProductDetailsPage />} />
           </Route>
         </Route>
-        <Route path="dental-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="dental-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.dentalSidebarData} />
+          }
+        >
           <Route index element={<DentalSolutions />} />
           <Route path="dental-imaging" element={<DefaultLayout />}>
             <Route index element={<DentalImaging />} />
@@ -562,13 +585,28 @@ const router = createBrowserRouter(
             <Route path=":id" element={<ProductDetailsPage />} />
           </Route>
         </Route>
-        <Route path="research-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="research-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.researchSidebarData} />
+          }
+        >
           <Route index element={<ResearchSolutions />} />
         </Route>
-        <Route path="teaching-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="teaching-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.teachingSidebarData} />
+          }
+        >
           <Route index element={<TeachingSolutions />} />
         </Route>
-        <Route path="veterinary-solutions" element={<SolutionsLayout />}>
+        <Route
+          path="veterinary-solutions"
+          element={
+            <SolutionsLayout sidebarData={sidebarData.veterinarySidebarData} />
+          }
+        >
           <Route index element={<VeterinarySolutions />} />
         </Route>
       </Route>

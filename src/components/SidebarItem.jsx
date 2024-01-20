@@ -5,6 +5,7 @@ import {
 } from "react-icons/md";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function SidebarItem({
   title,
@@ -14,29 +15,36 @@ export default function SidebarItem({
   icon,
   path,
 }) {
+  const location = useLocation();
+
   return (
     <li
       className={`${
-        isOpen ? "border-0 py-3" : "border"
-      } "w-full cursor-pointer  border-darkerBlue bg-white my-2 py-2 px-3 rounded-md overflow-hidden">`}
+        isOpen ? "" : ""
+      } "w-full cursor-pointer py-2 pl-4 rounded-md overflow-hidden">`}
     >
-      <button
-        className={`${
-          isOpen ? "text-mainDarker pb-1" : "text-darkerBlue"
-        } w-full`}
-      >
+      <button className="w-full hover:text-mainDarker text-left">
         {sections && sections.length !== 0 ? (
           <div className="w-full flex flex-row justify-between items-center">
             <Link
               to={path}
-              className="flex-auto flex flex-row items-center gap-1"
+              onClick={handleClick}
+              className={`${
+                location.pathname === path || isOpen
+                  ? "text-mainDarker"
+                  : "text-grayColor"
+              } flex-auto flex flex-row items-center gap-2`}
             >
               <span>{icon}</span>
               <span>{title}</span>
             </Link>
             <span
               onClick={handleClick}
-              className="text-xl flex flex-1 justify-end hover:text-mainDarker"
+              className={`${
+                location.pathname === path || isOpen
+                  ? "text-mainDarker"
+                  : "text-grayColor"
+              } text-xl flex flex-1 justify-end hover:text-mainDarker`}
             >
               {isOpen ? (
                 <MdOutlineKeyboardArrowDown />
@@ -46,7 +54,14 @@ export default function SidebarItem({
             </span>
           </div>
         ) : (
-          <Link to={path} className="w-full flex">
+          <Link
+            to={path}
+            onClick={handleClick}
+            className={`${
+              location.pathname === path ? "text-mainDarker" : "text-grayColor"
+            } w-full flex flex-row items-center gap-2`}
+          >
+            <span>{icon}</span>
             <span>{title}</span>
           </Link>
         )}

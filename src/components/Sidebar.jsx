@@ -9,6 +9,10 @@ export default function Sidebar({ items }) {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  if (!items) {
+    return null;
+  }
+
   return (
     <ul className="w-full">
       {items.map((item, index) => (
