@@ -12,8 +12,6 @@ const Header = () => {
   const [show, setShow] = useState(false);
   const { isScrolled } = useScrollContext();
 
-  console.log(show);
-
   return (
     <div className="relative flex w-full flex-col justify-center  py-4 px-5 md:px-8 lg:px-[5rem] bg-headerImage bg-cover">
       <div className="absolute top-0 left-0 w-full h-full bg-primary/80 z-20" />

@@ -17,6 +17,7 @@ import { RiFilter2Fill } from "react-icons/ri";
 import { HiBeaker } from "react-icons/hi";
 import { TbHeartRateMonitor } from "react-icons/tb";
 import { GiOfficeChair } from "react-icons/gi";
+import { generateId } from "../../utils/utils";
 
 export const navBarData = [
   {
@@ -77,9 +78,22 @@ export const navBarData = [
                     image: "/assets/images/genrui-WP-21A.jpg",
                     products: [
                       {
-                        id: "MNCHIP-CM-5",
+                        id: generateId(),
                         title: "MNCHIP CM-5 Dry Chemistry System",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                     ],
                   },
@@ -96,14 +110,40 @@ export const navBarData = [
                         image: "/assets/images/genrui-WP-21A.jpg",
                         products: [
                           {
-                            id: "Genrui-WP-21A",
+                            id: generateId(),
                             title: "Genrui WP-21A Semi-Automated Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Mindray-BA-88A",
+                            id: generateId(),
                             title: "Mindray BA-88A Semi-Automated Systems",
                             image: "/assets/images/mindray-BA-88A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                         ],
                       },
@@ -114,40 +154,118 @@ export const navBarData = [
                         image: "/assets/images/genrui-WP-21A.jpg",
                         products: [
                           {
-                            id: "Genrui-GS-300Plus",
+                            id: generateId(),
                             title:
                               "Genrui GS-300Plus Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Bioassays-240-Plus",
+                            id: generateId(),
                             title:
                               "Bioassays 240 Plus Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Mindray-BS-240P-ro",
+                            id: generateId(),
                             title:
                               "Mindray BS-240 Pro Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Erba-XL180",
+                            id: generateId(),
                             title:
                               "Erba XL180 Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Erba-XL200",
+                            id: generateId(),
                             title:
                               "Erba XL200 Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                           {
-                            id: "Roche-COBAS-C311",
+                            id: generateId(),
                             title:
                               "Roche COBAS C311 Fully Automated Chemistry Systems",
                             image: "/assets/images/genrui-WP-21A.jpg",
+                            gallery: [
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                              "/assets/images/mindray-BA-88A.jpg",
+                            ],
+                            brochure: "/assets/brochure/TestPDFfile.pdf",
+                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                            technicalSpecifications:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            configurations:
+                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                           },
                         ],
                       },
@@ -160,79 +278,274 @@ export const navBarData = [
                     image: "/assets/images/genrui-WP-21A.jpg",
                     products: [
                       {
-                        id: "Biorex-Wet",
+                        id: generateId(),
                         title: "Biorex Wet Chemistry Reagent",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Mindray-Wet",
+                        id: generateId(),
                         title: "Mindray Wet Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Randox",
+                        id: generateId(),
                         title: "Randox Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Roche",
+                        id: generateId(),
                         title: "Roche Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "SFRI",
+                        id: generateId(),
                         title: "SFRI Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Beckman-Coulter",
+                        id: generateId(),
                         title: "Beckman Coulter Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Olympus",
+                        id: generateId(),
                         title: "Olympus Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Hitachi",
+                        id: generateId(),
                         title: "Hitachi Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Abbot",
+                        id: generateId(),
                         title: "Abbot Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "Toshiba",
+                        id: generateId(),
                         title: "Toshiba Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "ORTHO-VITROS",
+                        id: generateId(),
                         title: "ORTHO VITROS Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "PENTRA",
+                        id: generateId(),
                         title: "PENTRA Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "SIEMENS",
+                        id: generateId(),
                         title: "SIEMENS Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "THERMO-KONELAB",
+                        id: generateId(),
                         title: "THERMO KONELAB Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                       {
-                        id: "VITALAB-FLEXOR",
+                        id: generateId(),
                         title: "VITALAB FLEXOR Chemistry Reagents",
                         image: "/assets/images/genrui-WP-21A.jpg",
+                        gallery: [
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                          "/assets/images/mindray-BA-88A.jpg",
+                        ],
+                        brochure: "/assets/brochure/TestPDFfile.pdf",
+                        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                        technicalSpecifications:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        configurations:
+                          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                       },
                     ],
                   },
@@ -245,29 +558,94 @@ export const navBarData = [
                 image: "/assets/images/genrui-WP-21A.jpg",
                 products: [
                   {
-                    id: "Genrui-GE500",
+                    id: generateId(),
                     title: "Genrui GE500 Electrolyte System",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                   {
-                    id: "IONIX",
+                    id: generateId(),
                     title: "IONIX Electrolyte System",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                   {
-                    id: "ISE-ION",
+                    id: generateId(),
                     title: "ISE ION Electrolyte System",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                   {
-                    id: "Erba-Lyte",
+                    id: generateId(),
                     title: "Erba Lyte Electrolyte System",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                   {
-                    id: "MNCHIP-CM-5",
+                    id: generateId(),
                     title: "MNCHIP CM-5 Electrolyte System",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                 ],
               },
@@ -281,6 +659,19 @@ export const navBarData = [
                     id: "Edan-i15",
                     title: "Edan i15 Blood Gas system",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                 ],
               },
@@ -294,6 +685,19 @@ export const navBarData = [
                     id: "Hemocue-501-HbA1C",
                     title: "Hemocue 501 HbA1C Systems",
                     image: "/assets/images/genrui-WP-21A.jpg",
+                    gallery: [
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                      "/assets/images/mindray-BA-88A.jpg",
+                    ],
+                    brochure: "/assets/brochure/TestPDFfile.pdf",
+                    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
+                    technicalSpecifications:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    configurations:
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                   },
                 ],
               },

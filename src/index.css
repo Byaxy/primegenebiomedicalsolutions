@@ -28,15 +28,7 @@
 .bg-waves {
   background-image: url("https://i.imgur.com/mQNwL6X.png");
 }
-.swiper-pagination {
-  @apply !-bottom-2;
-}
-.swiper-pagination-bullet {
-  @apply !bg-black/60;
-}
-.swiper-pagination-bullet-active {
-  @apply !bg-secondary;
-}
+
 .wraper {
   width: calc(100% - 20px);
   margin-left: auto;

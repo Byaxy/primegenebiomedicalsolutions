@@ -41,12 +41,42 @@ const MobileMenu = ({ handleClick }) => {
           </div>
           {showLanguages && (
             <ul className="flex flex-col mt-4 gap-4 pl-5 min-h-fit">
-              <li className="hover:text-secondary cursor-pointer">English</li>
-              <li className="hover:text-secondary cursor-pointer">French</li>
-              <li className="hover:text-secondary cursor-pointer">Arabic</li>
-              <li className="hover:text-secondary cursor-pointer">Chinese</li>
-              <li className="hover:text-secondary cursor-pointer">Spanish</li>
-              <li className="hover:text-secondary cursor-pointer">German</li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                English
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                French
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                Arabic
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                Chinese
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                Spanish
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer"
+                onClick={() => handleClick(false)}
+              >
+                German
+              </li>
             </ul>
           )}
         </div>
