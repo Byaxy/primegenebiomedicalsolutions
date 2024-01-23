@@ -94,6 +94,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                     ],
                   },
@@ -126,6 +127,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -144,6 +146,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                         ],
                       },
@@ -171,6 +174,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -190,6 +194,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -209,6 +214,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -228,6 +234,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -247,6 +254,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                           {
                             id: generateId(),
@@ -266,6 +274,7 @@ export const navBarData = [
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                             configurations:
                               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                           },
                         ],
                       },
@@ -294,6 +303,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -312,6 +322,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -330,6 +341,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -348,6 +360,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -366,6 +379,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -384,6 +398,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -402,6 +417,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -420,6 +436,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -438,6 +455,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -456,6 +474,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -474,6 +493,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -492,6 +512,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -510,6 +531,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -528,6 +550,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                       {
                         id: generateId(),
@@ -546,6 +569,7 @@ export const navBarData = [
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                         configurations:
                           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                        video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                       },
                     ],
                   },
@@ -574,6 +598,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                   {
                     id: generateId(),
@@ -592,6 +617,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                   {
                     id: generateId(),
@@ -610,6 +636,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                   {
                     id: generateId(),
@@ -628,6 +655,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                   {
                     id: generateId(),
@@ -646,6 +674,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                 ],
               },
@@ -672,6 +701,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                 ],
               },
@@ -698,6 +728,7 @@ export const navBarData = [
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
                     configurations:
                       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
+                    video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
                   },
                 ],
               },

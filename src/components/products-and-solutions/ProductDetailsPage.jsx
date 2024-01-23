@@ -108,7 +108,7 @@ const ProductDetailsPage = () => {
       </div>
       <div className="w-full px-4 flex flex-col gap-5">
         <div>
-          <VideoPlayer />
+          <VideoPlayer videoUrl={product?.video} />
         </div>
         <p>
           <a
