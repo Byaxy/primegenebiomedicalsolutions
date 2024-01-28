@@ -7,7 +7,7 @@ import OurPartners from "../../components/about-us/OurPartners";
 const AboutUs = () => {
   return (
     <div className="w-full">
-      <div className="relative flex flex-col items-center justify-center text-center bg-sectionBg bg-no-repeat bg-center bg-cover border-t border-dashed border-t-grayColor py-6 md:py-20 px-5 md:px-8 lg:px-[5rem] z-0">
+      <div className="relative flex flex-col items-center justify-center text-center bg-sectionBg bg-no-repeat bg-center bg-cover border-t border-dashed border-t-grayColor py-6 md:py-20 z-0">
         <div className="absolute top-0 left-0 bg-darkBlueText/50 w-full h-full" />
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white z-10">
           About Us

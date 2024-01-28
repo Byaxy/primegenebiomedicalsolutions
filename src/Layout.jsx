@@ -9,7 +9,9 @@ const RootLayout = () => {
         <Header />
       </header>
       <main className="w-full flex-auto">
-        <Outlet />
+        <div className="warper">
+          <Outlet />
+        </div>
       </main>
       <footer className="w-full flex-1">
         <Footer />

@@ -7,8 +7,8 @@ import Support from "./Support";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-primary px-5 md:px-8 lg:px-[5rem]">
-      <div className="flex flex-col w-full text-white ">
+    <div className="w-full bg-primary">
+      <div className="wraper flex flex-col text-white ">
         <div className="w-full flex justify-between items-center py-6">
           <Logo />
           <Form />
