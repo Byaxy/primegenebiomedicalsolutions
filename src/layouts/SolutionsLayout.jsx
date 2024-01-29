@@ -46,7 +46,7 @@ const SolutionsLayout = ({ sidebarData }) => {
           <Outlet />
         </div>
       </div>
-      <div className="w-full bg-grayColor rounded-lg p-8 mb-10">
+      <div className="w-full bg-grayColor rounded-lg p-5 md:p-8 mb-10">
         <GetInTouchForm />
       </div>
     </div>

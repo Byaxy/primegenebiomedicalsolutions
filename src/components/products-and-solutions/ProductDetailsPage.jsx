@@ -10,6 +10,7 @@ const ProductDetailsPage = () => {
   const { id } = useParams();
   const allProducts = getAllProducts(navBarData[2].sections);
   const product = getProductById(id, allProducts);
+  let slidesPerView = product?.gallery.length;
 
   return (
     <div className="w-full flex flex-col items-center justify-start bg-grayColor rounded-lg px-5 py-8 gap-8">
@@ -17,7 +18,10 @@ const ProductDetailsPage = () => {
         {product?.title}
       </h2>
       <div className="relative w-full">
-        <ThumbnailsSlider images={product?.gallery} />
+        <ThumbnailsSlider
+          images={product?.gallery}
+          slidesPerView={slidesPerView}
+        />
       </div>
       <div className="w-full">
         <Accordion variant="splitted">
@@ -47,13 +51,23 @@ const ProductDetailsPage = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className="w-full px-4 flex flex-col gap-5">
+      <div className="w-full flex flex-col gap-5">
         <div>
           <VideoPlayer videoUrl={product?.video} />
         </div>
+        <p className="mt-5">
+          <a
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
+            href={product?.brochure}
+            download
+          >
+            Download Video{" "}
+            <HiDownload className="opacity-60 group-hover:translate-y-1 transition text-darkerBlue" />
+          </a>
+        </p>
         <p>
           <a
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold my-5"
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
             href={product?.brochure}
             download
           >

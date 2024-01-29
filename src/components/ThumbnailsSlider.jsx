@@ -11,7 +11,7 @@ import "swiper/css/thumbs";
 import { Image } from "@nextui-org/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-const ThumbnailsSlider = ({ images }) => {
+const ThumbnailsSlider = ({ images, slidesPerView }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
@@ -19,6 +19,7 @@ const ThumbnailsSlider = ({ images }) => {
       <div className="container relative">
         <Swiper
           loop={true}
+          autoplay={true}
           spaceBetween={10}
           navigation={{
             prevEl: ".custom-prev",
@@ -29,7 +30,7 @@ const ThumbnailsSlider = ({ images }) => {
               thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
           }}
           modules={[FreeMode, Navigation, Thumbs]}
-          className="h-[400px] w-full rounded-lg"
+          className="h-96 w-full rounded-lg"
         >
           {images &&
             images?.map((image, index) => (
@@ -62,8 +63,8 @@ const ThumbnailsSlider = ({ images }) => {
         <Swiper
           onSwiper={setThumbsSwiper}
           loop={true}
-          spaceBetween={12}
-          slidesPerView={5}
+          spaceBetween={10}
+          slidesPerView={slidesPerView}
           freeMode={true}
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}

@@ -8,7 +8,7 @@ const laboratorySolutionsData = navBarData[2].sections?.filter(
 );
 const LaboratorySolutionsSection = () => {
   return (
-    <div className="w-full py-12 md:px-5 lg:px-[5rem] flex flex-col xl:flex-row bg-grayColor md:bg-transparent gap-6 text-darkerBlue md:-mt-[30vh] lg:-mt-[20vh] z-40">
+    <div className="w-full py-12 wraper flex flex-col xl:flex-row bg-grayColor md:bg-transparent gap-6 text-darkerBlue md:-mt-[30vh] lg:-mt-[20vh] z-40">
       <div className="bg-secondary  relative w-full xl:w-1/3 flex flex-col justify-center items-center rounded-lg">
         <div className="w-full flex justify-center items-center z-0">
           <Image

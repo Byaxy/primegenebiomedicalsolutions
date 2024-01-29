@@ -35,6 +35,14 @@
   @apply max-w-[1440px] mx-auto px-5 md:px-8;
 }
 
+.thumbs .swiper-slide {
+  opacity: 0.45;
+}
+
+.thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
 .gradientBlue {
   /* global 94%+ browsers support */
   background: linear-gradient(

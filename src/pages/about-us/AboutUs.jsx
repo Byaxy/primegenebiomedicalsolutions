@@ -13,39 +13,41 @@ const AboutUs = () => {
           About Us
         </h1>
       </div>
-      <div className="w-full flex flex-col gap-1 py-5">
-        <nav className="flex flex-col md:flex-row gap-2 md:gap-5 pt-5 wraper">
-          {navBarData[1].section?.map((item) => (
-            <>
-              <a
-                key={item.title}
-                href={item.id}
-                className="cursor-pointer hover:text-secondary text-primary font-semibold text-lg md:text-xl transition-colors ease-in-out duration-700"
-              >
-                {item.title}
-              </a>
+      <div className="wraper">
+        <div className="w-full flex flex-col gap-1 py-5">
+          <nav className="flex flex-col md:flex-row gap-2 md:gap-5 pt-5 md:justify-center">
+            {navBarData[1].section?.map((item) => (
+              <>
+                <a
+                  key={item.title}
+                  href={item.id}
+                  className="cursor-pointer hover:text-secondary text-primary font-semibold text-lg md:text-xl transition-colors ease-in-out duration-700"
+                >
+                  {item.title}
+                </a>
 
-              <div className="hidden md:block bg-gray-200 w-[2px] h-8 last:hidden" />
-            </>
-          ))}
-        </nav>
-        <div className="bg-gray-200 w-full h-[2px]" />
-      </div>
-      <div className="flex flex-col px-5 md:px-8 lg:px-[5rem] gap-12 md:gap-20 my-12">
-        <div id="our-philosophy" className="w-full scroll-mt-[14rem]">
-          <OurPhilosophy />
+                <div className="hidden md:block bg-gray-200 w-[2px] h-8 last:hidden" />
+              </>
+            ))}
+          </nav>
+          <div className="bg-gray-200 w-full h-[2px]" />
         </div>
+        <div className="w-full flex flex-col gap-12 md:gap-20 my-12">
+          <div id="our-philosophy" className="w-full scroll-mt-[14rem]">
+            <OurPhilosophy />
+          </div>
 
-        <div id="our-profile" className="w-full scroll-mt-[14rem]">
-          <OurProfile />
-        </div>
+          <div id="our-profile" className="w-full scroll-mt-[14rem]">
+            <OurProfile />
+          </div>
 
-        <div id="cooperate-policy" className="w-full scroll-mt-[14rem]">
-          <OurCooperatePolicy />
-        </div>
+          <div id="cooperate-policy" className="w-full scroll-mt-[14rem]">
+            <OurCooperatePolicy />
+          </div>
 
-        <div id="our-partners" className="w-full scroll-mt-[14rem]">
-          <OurPartners />
+          <div id="our-partners" className="w-full scroll-mt-[14rem]">
+            <OurPartners />
+          </div>
         </div>
       </div>
     </div>
