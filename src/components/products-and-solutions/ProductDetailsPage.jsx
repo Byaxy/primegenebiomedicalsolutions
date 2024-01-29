@@ -13,7 +13,7 @@ const ProductDetailsPage = () => {
   let slidesPerView = product?.gallery.length;
 
   return (
-    <div className="w-full flex flex-col items-center justify-start bg-grayColor rounded-lg px-5 py-8 gap-8">
+    <div className="w-full flex flex-col items-center justify-start bg-grayColor rounded-lg px-5 py-8 gap-12 md:gap-20">
       <h2 className="text-3xl w-full text-center font-bold text-darkerBlue">
         {product?.title}
       </h2>

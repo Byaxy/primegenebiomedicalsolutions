@@ -33,7 +33,7 @@ const SolutionsLayout = ({ sidebarData }) => {
             )}
           </div>
         )}
-        <div className="hidden xl:block w-full xl:w-1/3 bg-darkerBlue rounded-lg px-5 py-8">
+        <div className="hidden xl:block w-full xl:w-1/4 bg-darkerBlue rounded-lg px-5 py-8">
           {sidebarData && sidebarData.length > 0 ? (
             <Sidebar items={sidebarData} />
           ) : (
@@ -42,7 +42,7 @@ const SolutionsLayout = ({ sidebarData }) => {
             </div>
           )}
         </div>
-        <div className="w-full xl:w-2/3 flex">
+        <div className="w-full xl:w-3/4 flex">
           <Outlet />
         </div>
       </div>
