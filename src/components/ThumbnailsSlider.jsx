@@ -60,29 +60,31 @@ const ThumbnailsSlider = ({ images, slidesPerView }) => {
         </Swiper>
 
         {/* Thumbnail */}
-        <Swiper
-          onSwiper={setThumbsSwiper}
-          loop={true}
-          spaceBetween={10}
-          slidesPerView={slidesPerView}
-          freeMode={true}
-          watchSlidesProgress={true}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className="thumbs mt-5 h-24 w-full rounded-lg"
-        >
-          {images &&
-            images?.map((image, index) => (
-              <SwiperSlide key={index}>
-                <button className="flex h-full w-full items-center justify-center rounded-lg overflow-hidden">
-                  <Image
-                    src={image}
-                    alt={"Product Image"}
-                    className="block h-full w-full object-cover"
-                  />
-                </button>
-              </SwiperSlide>
-            ))}
-        </Swiper>
+        <div className="hidden w-full md:block">
+          <Swiper
+            onSwiper={setThumbsSwiper}
+            loop={true}
+            spaceBetween={10}
+            slidesPerView={slidesPerView}
+            freeMode={true}
+            watchSlidesProgress={true}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="thumbs mt-5 h-28 w-full flex items-center justify-center rounded-lg"
+          >
+            {images &&
+              images?.map((image, index) => (
+                <SwiperSlide key={index}>
+                  <button className="flex h-28 w-28 items-center justify-center rounded-full overflow-hidden">
+                    <Image
+                      src={image}
+                      alt={"Product Image"}
+                      className="block h-full w-full object-cover"
+                    />
+                  </button>
+                </SwiperSlide>
+              ))}
+          </Swiper>
+        </div>
       </div>
     </section>
   );

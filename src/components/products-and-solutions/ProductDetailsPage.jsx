@@ -5,12 +5,33 @@ import { HiDownload } from "react-icons/hi";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import VideoPlayer from "../VideoPlayer";
 import ThumbnailsSlider from "../ThumbnailsSlider";
+import { useEffect, useState } from "react";
 
 const ProductDetailsPage = () => {
+  const [product, setProduct] = useState({});
+  const [slidesPerView, setSlidesPerView] = useState(1);
   const { id } = useParams();
-  const allProducts = getAllProducts(navBarData[2].sections);
-  const product = getProductById(id, allProducts);
-  let slidesPerView = product?.gallery.length;
+
+  useEffect(() => {
+    let storedProduct = JSON.parse(sessionStorage.getItem("selectedProduct"));
+    if (storedProduct && storedProduct.id === id) {
+      // If the product is found in sessionStorage, use it
+      setProduct(storedProduct);
+      setSlidesPerView(storedProduct.gallery.length);
+    } else {
+      // If not found, fetch the product and store it in sessionStorage
+      let products = getAllProducts(navBarData[2].sections);
+      let selectedProduct = getProductById(id, products);
+      let slidesPerView = selectedProduct?.gallery.length;
+
+      setSlidesPerView(slidesPerView);
+
+      sessionStorage.setItem(
+        "selectedProduct",
+        JSON.stringify(selectedProduct)
+      );
+    }
+  }, [id]);
 
   return (
     <div className="w-full flex flex-col items-center justify-start bg-grayColor rounded-lg px-5 py-8 gap-12 md:gap-20">
@@ -52,20 +73,48 @@ const ProductDetailsPage = () => {
         </Accordion>
       </div>
       <div className="w-full flex flex-col gap-5">
-        <div>
-          <VideoPlayer videoUrl={product?.video} />
+        <div className="w-full flex flex-wrap gap-5 justify-between">
+          <div className="flex flex-col gap-4">
+            <VideoPlayer videoUrl={product?.video} />
+            <p>
+              <a
+                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
+                href={product?.brochure}
+                download
+              >
+                Download Video{" "}
+                <HiDownload className="opacity-60 group-hover:translate-y-1 transition text-darkerBlue" />
+              </a>
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <VideoPlayer videoUrl={product?.video} />
+            <p>
+              <a
+                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
+                href={product?.brochure}
+                download
+              >
+                Download Brochure{" "}
+                <HiDownload className="opacity-60 group-hover:translate-y-1 transition text-darkerBlue" />
+              </a>
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <VideoPlayer videoUrl={product?.video} />
+            <p>
+              <a
+                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
+                href={product?.brochure}
+                download
+              >
+                Download Brochure{" "}
+                <HiDownload className="opacity-60 group-hover:translate-y-1 transition text-darkerBlue" />
+              </a>
+            </p>
+          </div>
         </div>
         <p className="mt-5">
-          <a
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
-            href={product?.brochure}
-            download
-          >
-            Download Video{" "}
-            <HiDownload className="opacity-60 group-hover:translate-y-1 transition text-darkerBlue" />
-          </a>
-        </p>
-        <p>
           <a
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  cursor-pointer text-darkerBlue font-semibold"
             href={product?.brochure}

@@ -1,14 +1,17 @@
 import { Image } from "@nextui-org/react";
 import { Link } from "react-router-dom";
+import useSidebarState from "../useSidebarState";
 
 /* eslint-disable react/prop-types */
 const SectionsPage = ({ sections }) => {
+  const { handleItemClick } = useSidebarState();
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {sections?.map((section) => (
+      {sections?.map((section, index) => (
         <div
           key={section?.title}
           className="w-full flex flex-col items-center gap-3"
+          onClick={() => handleItemClick(index)}
         >
           <Link to={section?.path}>
             <Image src={section?.image} alt={section?.title} isZoomed />

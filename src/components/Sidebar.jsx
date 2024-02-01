@@ -1,13 +1,9 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
 import SidebarItem from "./SidebarItem";
+import useSidebarState from "./useSidebarState";
 
 export default function Sidebar({ items }) {
-  const [openIndex, setOpenIndex] = useState(null);
-
-  const handleItemClick = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+  const { openIndex, handleItemClick } = useSidebarState();
 
   if (!items) {
     return null;

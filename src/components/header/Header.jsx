@@ -25,7 +25,7 @@ const Header = () => {
             : ""
         } w-full z-[100]`}
       >
-        <div className="wraper flex justify-between items-center">
+        <div className="wraper relative flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center justify-center py-4">
             <Link to="/">

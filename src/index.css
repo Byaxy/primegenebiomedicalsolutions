@@ -35,12 +35,16 @@
   @apply max-w-[1440px] mx-auto px-5 md:px-8;
 }
 
+.thumbs .swiper-wrapper {
+  @apply flex items-center justify-center;
+}
+
 .thumbs .swiper-slide {
-  opacity: 0.45;
+  @apply opacity-45 flex items-center justify-center !w-32;
 }
 
 .thumbs .swiper-slide-thumb-active {
-  opacity: 1;
+  @apply opacity-100 flex items-center justify-center !w-32;
 }
 
 .gradientBlue {
