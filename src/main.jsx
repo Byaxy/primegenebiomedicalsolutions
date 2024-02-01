@@ -169,7 +169,7 @@ import Loading from "./components/Loading";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route exact path="/" element={<RootLayout />}>
       <Route path="" element={<Home />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="products-and-solutions" element={<DefaultLayout />}>

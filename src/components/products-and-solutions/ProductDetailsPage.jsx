@@ -13,24 +13,12 @@ const ProductDetailsPage = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    let storedProduct = JSON.parse(sessionStorage.getItem("selectedProduct"));
-    if (storedProduct && storedProduct.id === id) {
-      // If the product is found in sessionStorage, use it
-      setProduct(storedProduct);
-      setSlidesPerView(storedProduct.gallery.length);
-    } else {
-      // If not found, fetch the product and store it in sessionStorage
-      let products = getAllProducts(navBarData[2].sections);
-      let selectedProduct = getProductById(id, products);
-      let slidesPerView = selectedProduct?.gallery.length;
+    let products = getAllProducts(navBarData[2].sections);
+    let selectedProduct = getProductById(id, products);
+    let slidesPerView = selectedProduct?.gallery.length;
 
-      setSlidesPerView(slidesPerView);
-
-      sessionStorage.setItem(
-        "selectedProduct",
-        JSON.stringify(selectedProduct)
-      );
-    }
+    setSlidesPerView(slidesPerView);
+    setProduct(selectedProduct);
   }, [id]);
 
   return (
