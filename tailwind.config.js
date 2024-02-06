@@ -23,7 +23,7 @@ module.exports = {
         darkBlueText: "rgba(45,54,99,.75)",
         darkBlueLight: "rgba(45,54,99,.1)",
         darkerBlue: "#232a58",
-        RedColor: "#dc4545",
+        redColor: "#dc4545",
         default: "rgba(255, 255, 255, 1)",
       },
       boxShadow: {
