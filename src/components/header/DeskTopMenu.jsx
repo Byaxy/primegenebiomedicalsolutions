@@ -43,7 +43,11 @@ const DeskTopMenu = () => {
               {open === index ? (
                 <>
                   {item.sections ? (
-                    <div className="absolute top-[4.5rem] right-[5%] max-w-[90%] bg-sectionBg bg-cover rounded-xl overflow-hidden z-[90] text-darkerBlue font-semibold transition-all ease-in-out duration-700 scale-up-center">
+                    <div
+                      className={`${
+                        open === 3 ? "right-[18%]" : "right-[1.2%]"
+                      } absolute top-[4.5rem]  max-w-[98%] bg-sectionBg bg-cover rounded-xl overflow-hidden z-[90] text-darkerBlue font-semibold transition-all ease-in-out duration-700 scale-up-center`}
+                    >
                       <ul className="relative flex flex-row gap-4 justify-between w-full h-full px-6 py-8 bg-darkerBlue/50 ">
                         {item.sections &&
                           item.sections.map((child, index) => (
