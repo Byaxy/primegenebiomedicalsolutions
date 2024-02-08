@@ -319,7 +319,7 @@ export const navBarData = [
                                 name: "Dimension",
                                 value: "430mm x 360mm x 170mm ( L x W x H )",
                               },
-                              { name: "Weight", value: "" },
+                              { name: "Weight", value: "6.8 Kg" },
                             ],
                             functionalityFeatures: [
                               "7.0” TFT touch-screen & pop-up keypad",
