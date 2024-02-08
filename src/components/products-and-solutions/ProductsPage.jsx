@@ -11,7 +11,12 @@ const ProductsPage = ({ products, path }) => {
           className="w-full flex flex-col items-center gap-3"
         >
           <Link to={`${path}/${product?.id}`}>
-            <Image src={product?.image} alt={product?.title} isZoomed />
+            <Image
+              className="w-[400px] xl:w-[600px] h-[280px] xl:h-[360px]"
+              src={product?.image}
+              alt={product?.title}
+              isZoomed
+            />
           </Link>
           <Link to={`${path}/${product?.id}`}>
             <h3 className="font-semibold text-xl text-darkerBlue hover:text-secondary text-center transition-all ease-in-out duration-700">

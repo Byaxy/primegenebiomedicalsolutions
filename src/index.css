@@ -40,11 +40,11 @@
 }
 
 .thumbs .swiper-slide {
-  @apply opacity-45 flex items-center justify-center !w-32;
+  @apply opacity-45 flex items-center justify-center !w-auto;
 }
 
 .thumbs .swiper-slide-thumb-active {
-  @apply opacity-100 flex items-center justify-center !w-32;
+  @apply opacity-100 flex items-center justify-center !w-auto;
 }
 
 .gradientBlue {

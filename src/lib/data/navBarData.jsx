@@ -113,40 +113,237 @@ export const navBarData = [
                           {
                             id: generateId(),
                             title: "Genrui WP-21A Semi-Automated Systems",
-                            image: "/assets/images/genrui-WP-21A.jpg",
-                            gallery: [
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
+                            image: "/assets/images/genrui-wp-88a/1.jpg",
+                            video: [
+                              {
+                                youtube:
+                                  "https://www.youtube.com/watch?v=hTzgxdgiw4o",
+                                download: "/assets/videos/genrui-wp-21a.mp4",
+                              },
                             ],
-                            brochure: "/assets/brochure/TestPDFfile.pdf",
-                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
-                            technicalSpecifications:
-                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
-                            configurations:
-                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
-                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
+                            gallery: [
+                              "/assets/images/genrui-wp-88a/1.jpg",
+                              "/assets/images/genrui-wp-88a/2.jpeg",
+                              "/assets/images/genrui-wp-88a/3.jpeg",
+                              "/assets/images/genrui-wp-88a/4.webp",
+                              "/assets/images/genrui-wp-88a/5.jpeg",
+                            ],
+                            brochure: "/assets/brochure/genrui-wp-21a.pdf",
+                            desc: "Genrui WP21A is a NEW generation semi-auto chemistry analyser, it is one of the best models in the same series. The compact analyser integrates incubators and timers. The large colour touch screen and the intuitive software make it more user-friendly. The innovative WP21A brings a better user experience for small laboratories and makes their daily job much easier. This device enables the photometric determination of clinical chemistry parameters from samples of serum, plasma, urine and cerebrospinal fluid. It is ideal for health centers, clinics and small hospitals with low number of test per day. The in vitro diagnostic device is programmable and needs respective reagents.",
+                            technicalSpecifications: [
+                              {
+                                name: "Test method:",
+                                value: "Photometric colorimetry",
+                              },
+                              {
+                                name: "Assay method:",
+                                value:
+                                  "Endpoint, kinetic, 2-point kinetic, dual wavelengths ",
+                              },
+                              {
+                                name: "Wavelengths:",
+                                value:
+                                  "7 wavelengths: 340, 405, 492, 510, 546, 578, 630 nm",
+                              },
+                              {
+                                name: "Light source:",
+                                value:
+                                  "6 V/10 W long-life halogen lamp with auto sleep function",
+                              },
+                              {
+                                name: "Screen:",
+                                value: "7-inch LCD touch screen",
+                              },
+                              {
+                                name: "Sample volume:",
+                                value: "500 - 3000 μL adjustable",
+                              },
+                              { name: "Carryover:", value: "≤ 1.0 % " },
+                              {
+                                name: "Absorbance range:",
+                                value: "0 – 4.5 Abs.",
+                              },
+                              {
+                                name: "Temperature:",
+                                value: "Usually 37°C, the range is 25 - 40°C.",
+                              },
+                              {
+                                name: "Pre-incubation positions:",
+                                value: "10 incubators and three timers",
+                              },
+                              {
+                                name: "Result storage:",
+                                value:
+                                  "122 programmable assays, ≥ 10,000 test results",
+                              },
+                              {
+                                name: "Connectivity:",
+                                value: "RS-232 standard interface",
+                              },
+                              {
+                                name: "Printer:",
+                                value:
+                                  "Integrated thermal printer, connectivity to external printer possible",
+                              },
+                              {
+                                name: "Power supply:",
+                                value: "AC 100 – 240 V; 50/60 Hz",
+                              },
+                              { name: "Power:", value: "100 VA" },
+                              {
+                                name: "Environmental temperature:",
+                                value: "10°C – 30°C",
+                              },
+                              { name: "Relative humidity:", value: "≤ 80 %" },
+                              {
+                                name: "Atmosphere pressure:",
+                                value: "70 kPa – 106 kPa",
+                              },
+                              {
+                                name: "Dimensions:",
+                                value: "340mm (L) x 270mm (W) x 185mm (H)",
+                              },
+                              {
+                                name: "Weight:",
+                                value: "Net weight 5 kg, gross weight 7.5 kg",
+                              },
+                            ],
+
+                            functionalityFeatures: [
+                              "Real-time display of the reaction curve",
+                              "Flow cell and cuvette mode",
+                              "Open and closed system both possible",
+                              "Built-in incubators and timers",
+                              "Endpoint",
+                              "Two-point (fixed time),",
+                              "Kinetic ",
+                              "Absorbance",
+                              "Large color LCD with touch screen",
+                              "Built-in incubators and timers",
+                              "Flow cell and Cuvette mode",
+                              "Real-time display of reaction curve",
+                              "Reliable optical system",
+                              "Lamp auto-sleep function",
+                              "Large data storage",
+                              "Built-in printer",
+                              "LIS connectivity",
+                            ],
+                            configurations: "",
                           },
                           {
                             id: generateId(),
                             title: "Mindray BA-88A Semi-Automated Systems",
-                            image: "/assets/images/mindray-BA-88A.jpg",
-                            gallery: [
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
-                              "/assets/images/mindray-BA-88A.jpg",
+                            image: "/assets/images/mindray-ba-88a/1.jpg",
+                            video: [
+                              {
+                                youtube:
+                                  "https://www.youtube.com/watch?v=ZrRdScmHs_8",
+                                download: "/assets/videos/mindray-ba-88a.mp4",
+                              },
                             ],
-                            brochure: "/assets/brochure/TestPDFfile.pdf",
-                            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor              repudiandae eligendi impedit facere cum perspiciatis voluptate!           Officia error commodi sit natus voluptatibus laborum deleniti              ducimus voluptas provident animi ab molestiae ullam, iste fugit            eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur              nobis.",
-                            technicalSpecifications:
-                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error commodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
-                            configurations:
-                              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat  aliquam impedit hic provident ipsum minus corrupti. Dolor repudiandae eligendi impedit facere cum perspiciatis voluptate! Officia error ommodi sit natus voluptatibus laborum deleniti ducimus voluptas provident animi ab molestiae ullam, iste fugit eveniet, fuga explicabo labore nisi quos. Aperiam, aspernatur nobis.",
-                            video: "https://www.youtube.com/shorts/v9t6y1G2QAg",
+                            gallery: [
+                              "/assets/images/mindray-ba-88a/1.jpg",
+                              "/assets/images/mindray-ba-88a/2.jpg",
+                              "/assets/images/mindray-ba-88a/3.jpg",
+                              "/assets/images/mindray-ba-88a/4.webp",
+                              "/assets/images/mindray-ba-88a/5.webp",
+                            ],
+                            brochure: "/assets/brochure/mindray-ba-88a.pdf",
+                            desc: "This Mindray BA 88A Chemistry Analyzer is a premium quality best biochemistry machine. A semi-automatic chemistry analyzer with large touch-screen and easy-to-use operation software.  This autoanalyzer is manufactured by using quality assured material and advanced techniques, which make them up to the standard in this highly challenging field. You can use this fully automatic biochemistry analyzer in labs. The materials utilized to manufacture this biochemistry test machine are sourced from the most reliable and official vendors, chosen after performing detailed market surveys. Mindray products are widely acknowledged in the market for their high quality. We are dedicatedly involved in providing an excellent quality array of Mindray biochemistry analyzers.",
+                            technicalSpecifications: [
+                              {
+                                name: "Principles",
+                                value:
+                                  "ALT, AST, ALP, ACP, GGT, α-HBDH, LDH, CK, AMY.TG.TC, HDL-C, UA, UREA, Cr, Glu, TP, Alb, T-bil, D-Bil, TBA, NH4+ , HCO3-, Ca, Mg, Cl , Na, K, apoAI , apoB, Lp ( a ), C3, C4 , lgG, lgA, lgM, HbA1c, Alcohol, Amphetamines, Barbiturates, Benzodiazepine etc .",
+                              },
+                              {
+                                name: "Analysis Method",
+                                value:
+                                  "Endpoint , with or without reagent blank Endpoint , with sample blank and reagent blank Kinetics , with or without reagent blank Two-point Kinetics/Fixed-time , with or without reagent blank, Absorbance, Turbidimetry, Linear and non-linear calibration",
+                              },
+                              {
+                                name: "Light Source T",
+                                value: "Tungsten-halogen Iamp 6V/10W",
+                              },
+                              {
+                                name: "Wavelength Range",
+                                value:
+                                  "Automatic by 8-position filter wheel 8 standard filters : 340nm , 405nm , 450nm , 510nm , 546nm , 578nm , 630nm and 670nm . Bandwidth < 8nm Stray light : < 0 . 1 % @ 340nm",
+                              },
+                              {
+                                name: "Photometric Range",
+                                value:
+                                  "0~3.5 ABS Stability : < 0 . 005A / 20min @ 340nm",
+                              },
+                              {
+                                name: "Flowcell",
+                                value:
+                                  "Stainless steel with quartz window Measuring volume : 32 μL Optical path : 10mm Aspiration volume programmable : 200~9000 μL",
+                              },
+                              {
+                                name: "Input",
+                                value:
+                                  "Touch screen with touch pen and popup keypad Mouse or Keyboard via USB",
+                              },
+                              {
+                                name: "Temperature Control",
+                                value:
+                                  "By means of Peltier elements Room temperature , 25°C , 30 °C and 37°C",
+                              },
+                              {
+                                name: "Storage",
+                                value:
+                                  "More than 3000 sample results More than 1000 QC results",
+                              },
+                              {
+                                name: "Printer",
+                                value:
+                                  "Built-in thermal printer Support HP series",
+                              },
+                              {
+                                name: "Interface",
+                                value:
+                                  "RS232 serial port supporting data transmission USB port (2. 0) for keyboard , mouse , printer",
+                              },
+                              {
+                                name: "Operating Environment",
+                                value:
+                                  "Temperature : 15°C~30°C Humidity : 35%~85%, no condensation",
+                              },
+                              {
+                                name: "Power Requirement",
+                                value:
+                                  "Wide power supply : AC 100-240V, 50 / 60Hz",
+                              },
+                              {
+                                name: "Dimension",
+                                value: "430mm x 360mm x 170mm ( L x W x H )",
+                              },
+                              { name: "Weight", value: "" },
+                            ],
+                            functionalityFeatures: [
+                              "7.0” TFT touch-screen & pop-up keypad",
+                              "Two test mode: flowcell or cuvette",
+                              "Supports bi-chromatic tests for end point, fixed-time, kinetics methods",
+                              "External keyboard or mouse support via USB",
+                              "User-friendly interface and multi-language operation software",
+                              "Built-in thermal printer",
+                              "Straightforward software interface, easy to get started!",
+                              "Large LCD touch-screen, clear and user-friendly",
+                              "Two USB ports (2.0), for keyboard, mouse, printer",
+                              "Simple parameters setup",
+                              "Quick interchange between 4 temperature options",
+                              "Support Bi-Chromatic tests",
+                              "Multi-functional and comprehensive testing panel interface display",
+                              "Real-time monitor of reaction curve/data and temperature change",
+                              "Parameters can be reviewed in test panel",
+                              "Customizable patient infomation",
+                              "Support K-factor programming",
+                              "Capable of adding off-system test results",
+                              "Support two testing modes: Flowcell or Cuvette;  easy to shift between modes",
+                              "Easy maintenance: remove black cover to change lamp",
+                            ],
+                            configurations: "",
                           },
                         ],
                       },

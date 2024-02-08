@@ -30,7 +30,7 @@ const ThumbnailsSlider = ({ images, slidesPerView }) => {
               thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
           }}
           modules={[FreeMode, Navigation, Thumbs]}
-          className="h-96 w-full rounded-lg"
+          className="h-[460px] w-full rounded-lg"
         >
           {images &&
             images?.map((image, index) => (
@@ -39,7 +39,7 @@ const ThumbnailsSlider = ({ images, slidesPerView }) => {
                   <Image
                     src={image}
                     alt={"Product Image"}
-                    className="block h-full w-full object-cover"
+                    className="block w-[400px] xl:w-[600px] h-[280px] xl:h-[400px] object-cover"
                   />
                 </div>
               </SwiperSlide>
@@ -64,21 +64,21 @@ const ThumbnailsSlider = ({ images, slidesPerView }) => {
           <Swiper
             onSwiper={setThumbsSwiper}
             loop={true}
-            spaceBetween={10}
+            spaceBetween={20}
             slidesPerView={slidesPerView}
             freeMode={true}
             watchSlidesProgress={true}
             modules={[FreeMode, Navigation, Thumbs]}
-            className="thumbs mt-5 h-28 w-full flex items-center justify-center rounded-lg"
+            className="thumbs mt-5 h-24 w-full flex items-center justify-center rounded-lg"
           >
             {images &&
               images?.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <button className="flex h-28 w-28 items-center justify-center rounded-full overflow-hidden">
+                  <button className="flex bg-white items-start justify-center rounded-full overflow-hidden">
                     <Image
                       src={image}
                       alt={"Product Image"}
-                      className="block h-full w-full object-cover"
+                      className="block h-[80px] w-[80px] object-cover"
                     />
                   </button>
                 </SwiperSlide>

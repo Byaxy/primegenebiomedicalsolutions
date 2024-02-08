@@ -14,7 +14,12 @@ const SectionsPage = ({ sections }) => {
           onClick={() => handleItemClick(index)}
         >
           <Link to={section?.path}>
-            <Image src={section?.image} alt={section?.title} isZoomed />
+            <Image
+              className="w-[400px] xl:w-[600px] h-[280px] xl:h-[360px]"
+              src={section?.image}
+              alt={section?.title}
+              isZoomed
+            />
           </Link>
           <Link to={section?.path}>
             <h3 className="font-semibold text-xl text-darkerBlue hover:text-secondary text-center transition-all ease-in-out duration-700">
