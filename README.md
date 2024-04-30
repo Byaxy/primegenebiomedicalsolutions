@@ -24,7 +24,11 @@ The live website is deployed and hosted on Hostinger. You can find the link to t
 #### Key Lessons Learnt:
 
 - Responsive web design with Tailwind CSS.
-- Next UI
+- Next UI components in React applications
+- Internationalization with react-i18next
+- Use of third-party Libraries like Swiper, react-hook-form, etc
+- React Router Dom
+- Layouts
 - React Props.
 - React state.
 - Reusable Components.
